@@ -5,6 +5,6 @@ const app = express();
 
 app.use(getKnessetsRouter);
 
-app.listen(80, () => {
-  console.log('Listening on port 80');
+app.listen(3000, () => {
+  console.log('Listening on port 3000');
 });
