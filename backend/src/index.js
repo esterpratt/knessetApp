@@ -1,5 +1,5 @@
-import express from 'express';
-import { getKnessetsRouter } from './routes/getKnessetRoute';
+const express = require('express');
+const { router: getKnessetsRouter } = require('./routes/getKnessetRoute');
 
 const app = express();
 
