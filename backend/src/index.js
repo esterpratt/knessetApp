@@ -1,9 +1,9 @@
 import express from 'express';
-import { getKnessetsRoute } from './routes/getKnessetRoute';
+import { getKnessetsRouter } from './routes/getKnessetRoute';
 
 const app = express();
 
-app.use(getKnessetsRoute);
+app.use(getKnessetsRouter);
 
 app.listen(3000, () => {
   console.log('Listening on port 3000');
